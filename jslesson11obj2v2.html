@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>User Id Verification</title>
+<script type="text/javascript">
+<!--
+
+function logIn(){
+var userID=document.firstForm.name.value
+if(userID == 'scott' || userID == 'Scott')
+{
+alert("Hi " + userID + "!  Welcome to your Webpage.")
+}
+
+else
+{
+alert('You are unauthorized to view this page.')
+}
+}
+-->
+</script>
+</head>
+<body>
+<form name=firstForm>
+<br>
+<br>
+Type your name here:
+<input type="text" name="name" value="">
+<input type="button" value="Validate me" onclick="logIn()">
+</form>
+</body>
+
+</html>
